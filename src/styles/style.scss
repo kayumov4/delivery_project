@@ -1,0 +1,592 @@
+// yarn prettier --write .
+
+@import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;500;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,300&family=Rubik:wght@300;400;500;700&family=Spartan:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+// HEADER START
+
+.header {
+  background: linear-gradient(
+    113.59deg,
+    rgba(239, 239, 239, 0) -2.01%,
+    rgba(239, 239, 239, 0.2) 103.74%
+  );
+  backdrop-filter: blur(777px);
+  .header_container {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+    .h_right {
+      display: flex;
+      align-items: center;
+      a {
+        margin-left: 60px;
+        text-decoration: none;
+        font-family: "Rubik";
+        font-size: 18px;
+        line-height: 21px;
+        color: #363853;
+        span {
+          color: #ff6838;
+        }
+      }
+      .header_btn {
+        padding: 15px 28px;
+        font-family: "Rubik";
+        text-align: center;
+        color: #ffffff;
+        background-color: #ff7a50;
+        box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+// HEADER FINISH
+
+// Main Start
+.main {
+  background: linear-gradient(
+    113.59deg,
+    rgba(239, 239, 239, 0) -2.01%,
+    rgba(239, 239, 239, 0.2) 103.74%
+  );
+  backdrop-filter: blur(777px);
+  .main_container {
+    width: 1240px;
+    justify-content: space-around;
+    display: flex;
+    .m_left {
+      h1 {
+        margin-top: 220px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 66px;
+        line-height: 78px;
+        color: #363853;
+        span {
+          color: #ff7a50;
+        }
+      }
+      h2 {
+        margin-top: 23px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #363853;
+        margin-bottom: 45px;
+      }
+      a {
+        font-family: "Rubik";
+        font-size: 20px;
+        text-align: center;
+        text-decoration-line: underline;
+        color: #363853;
+      }
+      .m_btn {
+        margin-right: 30px;
+        padding: 13px 21px;
+        text-decoration: none;
+        font-family: "Rubik";
+        font-size: 20px;
+        text-align: center;
+        color: #ffffff;
+        background: #ff7a50;
+        box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+        border-radius: 5px;
+      }
+    }
+    .m_right {
+      margin-top: 100px;
+    }
+  }
+}
+
+// Main Finish
+
+// Categpry start
+
+.category {
+  background: linear-gradient(
+    113.59deg,
+    rgba(239, 239, 239, 0) -2.01%,
+    rgba(239, 239, 239, 0.2) 103.74%
+  );
+  backdrop-filter: blur(777px);
+  .category_container {
+    width: 1240px;
+    padding-top: 100px;
+    padding-bottom: 55px;
+    h1 {
+      text-align: center;
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 43px;
+      text-transform: capitalize;
+      color: #363853;
+      span {
+        color: #ff7a50;
+      }
+    }
+    .category_top {
+      padding-top: 55px;
+      align-items: center;
+      display: flex;
+      .btn_1 {
+        justify-content: center;
+        align-items: center;
+        border: none;
+        display: flex;
+        width: 210px;
+        height: 70px;
+        background: #ff7a50;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        p {
+          margin-left: -20px;
+          display: flex;
+          align-content: center;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+        }
+      }
+      .btn_2 {
+        justify-content: center;
+        align-items: center;
+        border: none;
+        display: flex;
+        width: 210px;
+        height: 70px;
+        background: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        p {
+          margin-left: -20px;
+          display: flex;
+          align-content: center;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          color: #363853;
+        }
+      }
+      .btn_3 {
+        justify-content: center;
+        align-items: center;
+        border: none;
+        display: flex;
+        width: 210px;
+        height: 70px;
+        background: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        p {
+          margin-left: -20px;
+          display: flex;
+          align-content: center;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          color: #363853;
+        }
+      }
+      .btn_4 {
+        justify-content: center;
+        align-items: center;
+        border: none;
+        display: flex;
+        width: 210px;
+        height: 70px;
+        background: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        p {
+          margin-left: -20px;
+          display: flex;
+          align-content: center;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          color: #363853;
+        }
+      }
+      .btn_5 {
+        justify-content: center;
+        align-items: center;
+        border: none;
+        display: flex;
+        width: 210px;
+        height: 70px;
+        background: #ffffff;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        p {
+          margin-left: -20px;
+          display: flex;
+          align-content: center;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          color: #363853;
+        }
+      }
+    }
+    .category_bottom {
+      align-content: center;
+      padding-top: 40px;
+      align-items: center;
+      display: flex;
+      .burger_1 {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        width: 208px;
+
+        background: #ffffff;
+        border-radius: 12px;
+        p {
+          padding-top: 25px;
+        }
+        h5 {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          color: #363853;
+        }
+        .btn_6 {
+          justify-content: center;
+          align-items: center;
+          border: none;
+          display: flex;
+          width: 106px;
+          height: 32px;
+          background: #ff7a50;
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          border-radius: 2px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ffffff;
+          margin-bottom: 22px;
+        }
+      }
+      .burger_2 {
+        padding-top: 25px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        width: 208px;
+        background: #ffffff;
+        border-radius: 12px;
+        p {
+          padding-top: 25px;
+        }
+        h5 {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          color: #363853;
+        }
+        .btn_7 {
+          justify-content: center;
+          align-items: center;
+          border: none;
+          display: flex;
+          width: 106px;
+          height: 32px;
+          background: #ff7a50;
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          border-radius: 2px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ffffff;
+          margin-bottom: 22px;
+        }
+      }
+      .burger_3 {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        width: 208px;
+        background: #ffffff;
+        border-radius: 12px;
+        p {
+          padding-top: 25px;
+        }
+        h5 {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          color: #363853;
+        }
+        .btn_8 {
+          justify-content: center;
+          align-items: center;
+          border: none;
+          display: flex;
+          width: 106px;
+          height: 32px;
+          background: #ff7a50;
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          border-radius: 2px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ffffff;
+          margin-bottom: 22px;
+        }
+      }
+      .burger_4 {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        width: 208px;
+        background: #ffffff;
+        border-radius: 12px;
+        p {
+          padding-top: 25px;
+        }
+        h5 {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          color: #363853;
+        }
+        .btn_9 {
+          justify-content: center;
+          align-items: center;
+          border: none;
+          display: flex;
+          width: 106px;
+          height: 32px;
+          background: #ff7a50;
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          border-radius: 2px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ffffff;
+          margin-bottom: 22px;
+        }
+      }
+      .burger_5 {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        text-align: center;
+        width: 208px;
+        background: #ffffff;
+        border-radius: 12px;
+        p {
+          padding-top: 25px;
+        }
+        h5 {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 18px;
+          color: #363853;
+        }
+        .btn_10 {
+          justify-content: center;
+          align-items: center;
+          border: none;
+          display: flex;
+          width: 106px;
+          height: 32px;
+          background: #ff7a50;
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+          border-radius: 2px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 18px;
+          color: #ffffff;
+          margin-bottom: 22px;
+        }
+      }
+    }
+    .category_button {
+      margin-top: 50px;
+      margin-left: 550px;
+      border: none;
+      padding: 13px 21px;
+      text-decoration: none;
+      font-family: "Rubik";
+      font-size: 20px;
+      text-align: center;
+      color: #ffffff;
+      background: #ff7a50;
+      box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+      border-radius: 5px;
+    }
+  }
+}
+
+// category finish
+
+// Content Start
+
+.content {
+  background: linear-gradient(
+    113.59deg,
+    rgba(239, 239, 239, 0) -2.01%,
+    rgba(239, 239, 239, 0.2) 103.74%
+  );
+  backdrop-filter: blur(777px);
+  .content_container {
+    width: 1240px;
+    padding-bottom: 100px;
+    align-items: center;
+    display: flex;
+    .content_left {
+      display: flex;
+    }
+    .content_right {
+      h1 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 50px;
+        text-transform: capitalize;
+        color: #363853;
+        span {
+          color: #ff7a50;
+        }
+      }
+      h2 {
+        margin-top: 30px;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #363853;
+        opacity: 0.9;
+      }
+      .content_info {
+        padding-top: 15px;
+        .content_info_1 {
+          align-items: center;
+          padding-top: 15px;
+          display: flex;
+          img {
+            margin: 0;
+          }
+          p {
+            margin: 0;
+            margin-left: 25px;
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #363853;
+          }
+        }
+        .content_info_2 {
+          align-items: center;
+          padding-top: 15px;
+          display: flex;
+          img {
+            margin: 0;
+          }
+          p {
+            margin: 0;
+            margin-left: 35px;
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #363853;
+          }
+        }
+        .content_info_3 {
+          align-items: center;
+          padding-top: 15px;
+          display: flex;
+          img {
+            margin: 0;
+          }
+          p {
+            margin: 0;
+            margin-left: 30px;
+            font-family: "Rubik";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 30px;
+            text-transform: capitalize;
+            color: #363853;
+          }
+        }
+        button {
+          margin-top: 50px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffffff;
+          padding: 17px 44px;
+          border: none;
+          background: #ff7a50;
+          box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+          border-radius: 30px 30px 1px 30px;
+        }
+      }
+    }
+  }
+}
+
+//Content finish
