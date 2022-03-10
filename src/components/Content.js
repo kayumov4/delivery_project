@@ -35,6 +35,7 @@ const Content = () => {
               <p>500+ restaurant & cafe shop</p>
             </div>
             <button>See More</button>
+            <button>See More</button>
           </div>
         </div>
       </div>
