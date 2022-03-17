@@ -1,0 +1,61 @@
+.main {
+    background: linear-gradient(
+      113.59deg,
+      rgba(239, 239, 239, 0) -2.01%,
+      rgba(239, 239, 239, 0.2) 103.74%
+    );
+    backdrop-filter: blur(777px);
+    .main_container {
+      width: 1240px;
+      justify-content: space-around;
+      display: flex;
+      .m_left {
+        h1 {
+          margin-top: 220px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 66px;
+          line-height: 78px;
+          color: #363853;
+          span {
+            color: #ff7a50;
+          }
+        }
+        h2 {
+          margin-top: 23px;
+          font-family: "Rubik";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 30px;
+          text-transform: capitalize;
+          color: #363853;
+          margin-bottom: 45px;
+        }
+        a {
+          font-family: "Rubik";
+          font-size: 20px;
+          text-align: center;
+          text-decoration-line: underline;
+          color: #363853;
+        }
+        .m_btn {
+          margin-right: 30px;
+          padding: 13px 21px;
+          text-decoration: none;
+          font-family: "Rubik";
+          font-size: 20px;
+          text-align: center;
+          color: #ffffff;
+          background: #ff7a50;
+          box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+          border-radius: 5px;
+        }
+      }
+      .m_right {
+        margin-top: 100px;
+      }
+    }
+  }
+  

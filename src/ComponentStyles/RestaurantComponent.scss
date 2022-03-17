@@ -1,0 +1,83 @@
+.restaurant {
+    .restaurant_con {
+      .product_com {
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+        display: inline-block;
+        width: 360px;
+        height: 420px;
+        background: #fff;
+        border-radius: 53px 5px;
+        a {
+          img {
+            border-radius: 53px 5px 0px 0px;
+            width: 360px;
+            height: 300px;
+            object-fit: cover;
+          }
+        }
+        h3 {
+          padding-top: 22px;
+          margin-left: 20px;
+          text-align: left;
+          font-family: 'Rubik';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 30px;
+          color: #363853;
+        }
+        .product_info {
+          display: flex;
+          p {
+            margin-left: 20px;
+            text-align: left;
+            font-family: 'Rubik';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 30px;
+            color: #363853;
+            opacity: 0.9;
+          }
+          button {
+            border: none;
+            width: 79px;
+            height: 33px;
+            background: #FF7A50;
+            box-shadow: 0px 5px 12px rgba(255, 104, 56, 0.19);
+            border-radius: 20px 20px 0px 20px;
+          }
+        }
+      }
+    }
+  }
+  
+  
+  .restaurants_component {
+    background: linear-gradient(113.59deg, rgba(239, 239, 239, 0) -2.01%, rgba(239, 239, 239, 0.2) 103.74%);
+    backdrop-filter: blur(777px);
+    h1 {
+      padding-bottom: 50px;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 30px;
+      text-transform: capitalize;
+      color: #363853;
+      text-align: center;
+      span {
+        color: #FF7A50;
+      }
+    }
+    .restaurants_top {
+      width: 1240px;
+      display: flex;
+    }
+    .restaurants_bottom {
+      padding-bottom: 100px;
+      padding-top: 50px;
+      width: 1240px;
+      display: flex;
+    }
+  }
