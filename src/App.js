@@ -1,3 +1,6 @@
+//STYLES
+
+
 import "./styles/style.scss";
 import "./styles/Header.scss";
 import "./styles/Category.scss";
@@ -10,6 +13,9 @@ import "./styles/Content.scss";
 
 
 
+// COMPONENTS
+
+
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Category from "./components/Category";
@@ -17,6 +23,8 @@ import Content from "./components/Content";
 import MenuComponent from "./components/MenuComponent";
 import Restaurants from "./components/Restaurants";
 
+
+//IMAGES
 
 
 import restaurant1 from "./images/restaurant1.jpg";
