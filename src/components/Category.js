@@ -16,7 +16,7 @@ const Category = () => {
         <div className="category_top">
           <button className="btn_1">
             <img src={burger} alt="" />
-            <p>Burger uzbek burger</p>
+            <p>Burger</p>
           </button>
           <button className="btn_2">
             <img src={pizza} alt="" />
